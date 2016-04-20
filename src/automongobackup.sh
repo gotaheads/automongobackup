@@ -31,7 +31,7 @@ set -eo pipefail
 
 # Database name to specify a specific database only e.g. myawesomeapp
 # Unnecessary if backup all databases
-# DBNAME=""
+DBNAME="dfl1"
 
 # Username to access the mongo server e.g. dbuser
 # Unnecessary if authentication is off
